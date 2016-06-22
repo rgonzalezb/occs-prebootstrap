@@ -1,0 +1,12 @@
+"instances": [
+  {
+    "attributes": {
+      "userdata": {
+        "pre-bootstrap": {
+          "scriptURL": "https://github.com/rgonzalezb/occs-prebootstrap/blob/master/increaseStorage.md",
+          "failonerror": true,
+         }
+      }
+    }
+  }
+]
