@@ -1,3 +1,5 @@
+## Prebootstrap Attribute for Oracle Compute Cloud Service
+#### Set up prebootstrap script for increasing instance storage.
 "instances": [
   {
     "attributes": {
