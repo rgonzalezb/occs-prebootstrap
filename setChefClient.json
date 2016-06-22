@@ -1,0 +1,18 @@
+      {
+        "chef": {
+           "run_list": ["recipe[oui]"],
+           "chef_server_url": "https://chef.oraclemx.com",
+           "mode": "client",
+           "chef_node_name": "occs_test_node_1",
+           "chef_validator_location": "download (http:// or file:/) location with filename" ,
+           "version": "11.4.2",
+           "initial_attributes": {
+                 "oui": {
+                    "response_file_url": "responsefile url/filename.rsp",
+                    "installer_url": "installer url/filename.zip",
+                    "ignoreSysPrereqs": true
+                         }
+                     }
+                 }
+        <Specify other userdata attributes here, if required.>
+      }
